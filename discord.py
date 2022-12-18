@@ -4,12 +4,12 @@ from datetime import datetime
 
 
 islem = input("payload i giriniz: ")
-
+kanal_id= input("Kanal id' sini girin:")
 if (islem == "0"):
 	payload ={"type":2,
 		"application_id":"624187616312426512",
 		"guild_id":"787718450206343218",
-		"channel_id":"1053726991309877269",
+		"channel_id":kanal_id,
 		"session_id":"14351d4f4e9897f76ddb2b2a0df20245",
 		"data":{
     	"version":"1042350843300679691",
